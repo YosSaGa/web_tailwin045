@@ -1,11 +1,4 @@
-JavaScript (index.js)
-const burger = document.querySelector("#burger");
-const menu = document.querySelector("#menu");
-
-burger.addEventListener("click", (e) => {
-  if (menu.classList.contains("hidden")) {
-    menu.classList.remove("hidden");
-  } else {
-    menu.classList.add("hidden");
-  }
+// index.js
+document.getElementById('menu-toggle').addEventListener('click', function() {
+  document.getElementById('mobile-menu').classList.toggle('hidden');
 });

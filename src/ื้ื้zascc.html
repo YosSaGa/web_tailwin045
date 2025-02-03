@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Layout</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-6xl mx-auto">
+        <!-- Header Section -->
+        <header class="text-sm text-gray-500 border-b border-gray-300 pb-2 mb-4">
+            <div class="flex justify-between">
+                <div>PODCAST: Tug of war | UKRAINE-RUSSIA: In photos | Help Ukraine</div>
+                <div>TRENDING: Hong Kong exodus | 'Ecovado' | Andriy Shevchenko | Anne Heche</div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="grid grid-cols-3 gap-4">
+            <!-- Main Article -->
+            <div class="col-span-2 bg-white rounded-lg shadow p-4">
+                <h1 class="text-xl font-bold mb-2">Mar-a-Lago has long caused concerns for US intelligence</h1>
+                <img 
+                    src="https://via.placeholder.com/600x300" 
+                    alt="Main article image" 
+                    class="w-full rounded mb-4">
+                <p class="text-gray-700 text-sm mb-2">
+                    From revealing an airstrike over 'beautiful' cake to cellphone photos of the 'nuclear football,' Trump's Florida home has caused headaches for US security.
+                </p>
+                <ul class="text-gray-500 text-xs">
+                    <li>Reaction to Trump search reminds ex-FBI adviser of run-up to January 6</li>
+                    <li>Opinion: It wasn’t what Mar-a-Lago’s original owner had in mind</li>
+                    <li>Analysis: Responding to FBI search, Trump and allies return to his familiar strategy: flood the zone with nonsense</li>
+                </ul>
+            </div>
+
+            <!-- Sidebar Articles -->
+            <div class="space-y-4">
+                <div class="bg-white rounded-lg shadow p-4">
+                    <h2 class="text-sm font-bold mb-2">75 years on: How India went from impoverished British colony to emerging giant</h2>
+                    <p class="text-gray-700 text-xs mb-2">
+                        Opinion: Decapitated bodies floating down the canal. Remembering Indian Partition.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow p-4">
+                    <h2 class="text-sm font-bold mb-2">Second US congressional delegation visits Taiwan</h2>
+                    <p class="text-gray-700 text-xs mb-2">
+                        Beijing is mad about Pelosi’s visit to Taiwan. But now some Chinese are thanking her.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow p-4">
+                    <h2 class="text-sm font-bold mb-2">Europe’s drought could signal the death of river cruising</h2>
+                    <p class="text-gray-700 text-xs mb-2">
+                        CNN’s Nic Robertson: What I learned from a 3-week drive around Ukraine’s front lines.
+                    </p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

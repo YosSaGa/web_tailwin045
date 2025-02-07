@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS: Flexbox</title>
+    <link rel="stylesheet" href="styleflexkok.css" />
+    <style>
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      .topmenu {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .topmenu li {
+        margin: 0 10px;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+      .logoBox,
+      .searchBox,
+      .menuBox {
+        flex: 1;
+        text-align: center;
+      }
+      .heading-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 40px 0;
+      }
+      .heading-box {
+        width: 30%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        text-align: center;
+      }
+      .heading-box img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div>AllRecipies</div>
+      <div>
+        <form action="">
+          <input type="text" />
+        </form>
+      </div>
+      <div>
+        <ul class="topmenu">
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Magazine</a></li>
+          <li><a href="#">Newsletters</a></li>
+          <li><a href="#">Sweepstakes</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="logoBox">AllRecipies</div>
+      <div class="searchBox">
+        <form action="">
+          <input type="text" />
+        </form>
+      </div>
+      <div class="menuBox">
+        <ul class="topmenu">
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Magazine</a></li>
+          <li><a href="#">Newsletters</a></li>
+          <li><a href="#">Sweepstakes</a></li>
+        </ul>
+      </div>
+    </div>
+    <h1>
+        SOUP
+    </h1>
+
+    <div class="heading-container">
+        <div class="heading-box">
+          <img
+            src="https://www.allrecipes.com/thmb/AfZzxGJ2X9t3yG-w9bTpHNnP804=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/82923-healing-cabbage-soup-DDMFS-4x3-3a90f759a83b41e08810d1393d8929ee.jpg"
+            alt="Healing Cabbage Soup"
+          />
+          <p>Healing Cabbage Soup</p>
+        </div>
+        <div class="heading-box">
+          <img
+            src="https://www.allrecipes.com/thmb/-prn7gSmRYoFDmNImLsBwoB_Rdg=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8378788_Chef-Johns-Tortilla-Soup_Chef-John_4x3-3742e7751e4f4a1abb00d309f5796781.jpg"
+            alt="Chicken Tortilla Soup"
+          />
+          <p>Chicken Tortilla Soup</p>
+        </div>
+        <div class="heading-box">
+          <img
+            src="https://www.allrecipes.com/thmb/42QAFCxSYj5vRAjKCBnvyDLMVZ4=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-143069-super-delicious-zuppa-toscana-ddmfs-Beauty-4x3-8ee6560b8d8e43c49321c468fc48df9a.jpg"
+            alt="Super-Delicious Zuppa Toscana"
+          />
+          <p>Super-Delicious Zuppa Toscana</p>
+        </div>
+      </div>
+      
+      
+    </div>
+  </body>
+</html>

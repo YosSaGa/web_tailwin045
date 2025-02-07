@@ -7,10 +7,10 @@
     <title>Responsive News Menu</title>
   </head>
   <body class="bg-gray-100">
-    <!-- เมนูหลัก -->
+    
     <nav class="bg-black text-white p-4">
       <div class="max-w-7xl mx-auto flex items-center justify-between">
-        <!-- Logo -->
+        
         <div class="flex items-center space-x-4">
           <button id="menu-toggle" class="lg:hidden">
             <span class="text-2xl">&#9776;</span>
@@ -22,7 +22,7 @@
           />
         </div>
 
-        <!-- เมนูหลัก (เฉพาะ Desktop) -->
+        
         <ul class="hidden lg:flex space-x-6">
           <li><a href="#" class="hover:text-gray-400">World</a></li>
           <li><a href="#" class="hover:text-gray-400">US Politics</a></li>
@@ -31,7 +31,7 @@
           <li><a href="#" class="hover:text-gray-400">More</a></li>
         </ul>
 
-        <!-- เมนูด้านขวา -->
+        
         <div class="hidden lg:flex items-center space-x-4">
           <a href="#" class="hover:text-gray-400">Audio</a>
           <a href="#" class="hover:text-gray-400">🔍</a>
@@ -40,7 +40,7 @@
       </div>
     </nav>
 
-    <!-- แถบข่าวด่วน -->
+ 
     <div class="bg-white shadow-md border-t border-b p-3 mx-2 lg:mx-10 mt-2">
       <div
         class="max-w-7xl mx-auto flex flex-wrap items-center justify-center text-sm space-x-4 overflow-hidden"
@@ -58,7 +58,7 @@
       </div>
     </div>
 
-    <!-- เมนูสำหรับ Mobile -->
+    
     <ul
       id="mobile-menu"
       class="lg:hidden hidden flex-nowrap overflow-x-auto bg-black text-white space-x-2 p-4"
@@ -76,9 +76,9 @@
       </li>
     </ul>
 
-    <!-- Main Content -->
+    
     <div class="grid grid-cols-3 gap-4">
-      <!-- Left Column (Main Article) -->
+    
       <div class="col-span-1">
         <div class="bg-white shadow rounded-lg p-4">
           <img
@@ -110,7 +110,7 @@
         </div>
       </div>
 
-      <!-- Center Column (Additional Articles) -->
+      
       <div class="col-span-1">
         <div class="bg-white shadow rounded-lg p-4">
           <img
@@ -144,9 +144,9 @@
         </div>
       </div>
 
-      <!-- Right Column (New Article on Top-Right) -->
+      
       <div class="col-span-1 space-y-4">
-        <!-- New Article (Right Top) -->
+       
         <div class="bg-white shadow rounded-lg p-4 mb-4">
           <img
             src="https://media.cnn.com/api/v1/images/stellar/prod/cnn-fast-placeholder-1920x1080.png?c=16x9&q=w_1280,c_fill"
@@ -164,14 +164,7 @@
       </div>
     </div>
 
-    <!-- สคริปต์ JavaScript สำหรับการเปิดเมนู Mobile -->
-    <script>
-      const menuToggle = document.getElementById("menu-toggle");
-      const mobileMenu = document.getElementById("mobile-menu");
-
-      menuToggle.addEventListener("click", () => {
-        mobileMenu.classList.toggle("hidden");
-      });
-    </script>
+   
+    <script src="index.js"></script>
   </body>
 </html>

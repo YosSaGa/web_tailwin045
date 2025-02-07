@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Itim&family=Rubik+Vinyl&display=swap");
+
+/* "Merriweather", serif; */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", serif;
+  font-size: 16px;
+}
+.logoText {
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+}
+.nav {
+  width: 1000px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid red;
+}
+.topmenu li {
+  display: inline;
+  margin-right: 15px;
+}
+.topmenu a {
+  text-decoration: none;
+}
+.logo {
+  width: 150px;
+  float: left;
+}
+.search {
+  width: 250px;
+  float: left;
+}
+.menu {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid red;
+}
+.logoBox {
+  background-color: aqua;
+}
+.searchBox {
+  background-color: aquamarine;
+}
+.menuBox {
+  background-color: azure;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.heading-box {
+  text-align: center;
+  width: 30%;
+}
+
+.heading-box img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.heading-box p {
+  margin: 0;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center; 
+  margin-bottom: 20px; 
+  font-size: 2.5rem; 
+  font-weight: bold; 
+  color: #333; 
+}

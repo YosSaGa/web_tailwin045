@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ฟอร์มลงทะเบียนศิษย์เก่า IT + IS</title>
+  </head>
+  <body>
+    <h1>ฟอร์มลงทะเบียนศิษย์เก่า IT + IS</h1>
+    <form action="/submit" method="post">
+      <label for="name">ชื่อ-สกุล:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="student_id">รหัสนักศึกษา:</label><br />
+      <input
+        type="text"
+        id="student_id"
+        name="student_id"
+        required
+      /><br /><br />
+
+      <label for="gender">เพศ:</label><br />
+      <select id="gender" name="gender" required>
+        <option value="male">ชาย</option>
+        <option value="female">หญิง</option>
+        <option value="other">อื่นๆ</option></select
+      ><br /><br />
+
+      <label for="study_year">ปีการศึกษาที่เข้าศึกษา:</label><br />
+      <input
+        type="number"
+        id="study_year"
+        name="study_year"
+        required
+      /><br /><br />
+
+      <label for="address">ที่อยู่:</label><br />
+      <textarea
+        id="address"
+        name="address"
+        rows="4"
+        cols="50"
+        required
+      ></textarea
+      ><br /><br />
+
+      <label for="email">อีเมล:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="phone">เบอร์โทรศัพท์:</label><br />
+      <input type="tel" id="phone" name="phone" required /><br /><br />
+
+      <label for="course">ชื่อหลักสูตร:</label><br />
+      <select id="course" name="course" required>
+        <option value="it">IT</option>
+        <option value="is">IS</option></select
+      ><br /><br />
+
+      <label for="job">อาชีพปัจจุบัน:</label><br />
+      <input type="text" id="job" name="job" /><br /><br />
+
+      <label for="workplace">สถานที่ทำงาน:</label><br />
+      <textarea id="workplace" name="workplace" rows="4" cols="50"></textarea
+      ><br /><br />
+
+      <label for="role">ระบบงานที่ทำ:</label><br />
+      <select id="role" name="role" required>
+        <option value="web_dev">Web Developer</option>
+        <option value="sa">System Analyst</option>
+        <option value="graphic_design">Graphic Design</option>
+        <option value="digital_marketing">Digital Marketing</option>
+        <option value="other">อื่นๆ</option></select
+      ><br /><br />
+
+      <label for="photo">อัปโหลดรูปถ่าย:</label><br />
+      <input type="file" id="photo" name="photo" accept="image/*" /><br /><br />
+
+      <button type="submit">ส่งข้อมูล</button>
+    </form>
+  </body>
+</html>
